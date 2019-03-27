@@ -66,6 +66,7 @@
 }
 
 % Define custom commands for CV info
+\newcommand{\ExtraCurricular}[1]{\renewcommand{\ExtraCurricular}{#1}}
 \newcommand{\cvdate}[1]{\renewcommand{\cvdate}{#1}}
 \newcommand{\cvmail}[1]{\renewcommand{\cvmail}{#1}}
 \newcommand{\cvnumberphone}[1]{\renewcommand{\cvnumberphone}{#1}}
@@ -79,18 +80,7 @@
 % Command for printing the contact information icons
 \newcommand*\icon[1]{\tikz[baseline=(char.base)]{\node[shape=circle,draw,inner sep=1pt, fill=mainblue,mainblue,text=white] (char) {#1};}}
 
-% Command for printing skill progress bars
-\newcommand\skills[1]{ 
-	\renewcommand{\skills}{
-		\begin{tikzpicture}
-			\foreach [count=\i] \x/\y in {#1}{
-				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-				\node [above right] at (0,\i+0.4) {\x};
-			}
-		\end{tikzpicture}
-	}
-}
+\newcommand{\skills}[1]{\renewcommand{\skills}{#1}}
 
 % Command for printing skills text
 \newcommand\skillstext[1]{ 
@@ -155,16 +145,20 @@
 			\end{flushleft}
 		}
 
-		%------------------------------------------------
+		\ifthenelse{\equal{\ExtraCurricular}{}}{}{
+			\profilesection{Extra-Curricular}
+			\begin{flushleft}
+				\ExtraCurricular
+			\end{flushleft}
+		}
+		
+		\ifthenelse{\equal{\skills}{}}{}{
+			\profilesection{Skills}
+			\begin{flushleft}
+				\skills
+			\end{flushleft}
+		}
 
-		\profilesection{Skills}
-
-		\skills
-		\skillstext
-		\scriptsize
-		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
-			
-		%------------------------------------------------
 			
 	\end{textblock}
 }
