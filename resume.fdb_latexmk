@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1553654899 "/home/sourabh/Documents/Github/Resume/resume.tex" "resume.pdf" "resume" 1553654900
+["pdflatex"] 1553655530 "/home/sourabh/Documents/Github/Resume/resume.tex" "resume.pdf" "resume" 1553655530
   "/etc/texmf/web2c/texmf.cnf" 1546805806 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/sourabh/Documents/Github/Resume/resume.tex" 1553654899 6528 eec35011907755b10747232bbf25b91e ""
+  "/home/sourabh/Documents/Github/Resume/resume.tex" 1553655530 6581 352feb33476593e331b8e710625f24ad ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc" 1480098666 2877 6ddb27cbef539831b4076105c848e789 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/intel/clearsans/ClearSans-lf-t1--base.tfm" 1480098696 1628 b843f3b3a8f905a64657f476bdc70de9 ""
@@ -128,13 +128,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1546874206 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1546874235 4128724 5cc17a3c2d41ee8010bdd4bb6a27430e ""
-  "resume.aux" 1553654900 706 e0850e310f08af52a3b1348e3a13b988 ""
-  "resume.out" 1553654899 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "resume.tex" 1553654899 6528 eec35011907755b10747232bbf25b91e ""
+  "resume.aux" 1553655530 706 e0850e310f08af52a3b1348e3a13b988 ""
+  "resume.out" 1553655530 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume.tex" 1553655530 6581 352feb33476593e331b8e710625f24ad ""
   "sourabh.png" 1535766028 54326 3dd0ca342a0ab7478c491edd26f09fa0 ""
   "twentysecondcv.cls" 1553653673 8208 572e8775411c6749b27f10f1fb853e48 ""
   (generated)
+  "resume.aux"
+  "resume.out"
   "resume.pdf"
   "resume.log"
-  "resume.out"
-  "resume.aux"
