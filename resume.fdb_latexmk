@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1561784439 "/Users/sourabhaggarwal/Documents/Resume/resume.tex" "resume.pdf" "resume" 1561784440
-  "/Users/sourabhaggarwal/Documents/Resume/resume.tex" 1561784387 6643 bc81da79dd9a20db9faffd9111b83cb0 ""
+["pdflatex"] 1561784549 "/Users/sourabhaggarwal/Documents/Resume/resume.tex" "resume.pdf" "resume" 1561784550
+  "/Users/sourabhaggarwal/Documents/Resume/resume.tex" 1561784549 6643 432fb10fce2a61fd183b46c027340717 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc" 1395096671 2877 6ddb27cbef539831b4076105c848e789 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/intel/clearsans/ClearSans-lf-t1--base.tfm" 1395096671 1628 b843f3b3a8f905a64657f476bdc70de9 ""
@@ -134,13 +134,13 @@
   "/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1557342064 3277517 23507ed665b4dd9046f0f2a94bbef2be ""
   "/usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1557982891 4259636 cfd7ab2275314e2b36d1a5bacae433b2 ""
   "/usr/local/texlive/2019/texmf.cnf" 1557341546 577 d150fef99ac436ad1156e86b0892f6ef ""
-  "resume.aux" 1561784440 706 e0850e310f08af52a3b1348e3a13b988 "pdflatex"
-  "resume.out" 1561784440 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume.tex" 1561784387 6643 bc81da79dd9a20db9faffd9111b83cb0 ""
+  "resume.aux" 1561784549 706 e0850e310f08af52a3b1348e3a13b988 "pdflatex"
+  "resume.out" 1561784549 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume.tex" 1561784549 6643 432fb10fce2a61fd183b46c027340717 ""
   "sourabh.png" 1561784347 54326 3dd0ca342a0ab7478c491edd26f09fa0 ""
   "twentysecondcv.cls" 1561784347 8208 572e8775411c6749b27f10f1fb853e48 ""
   (generated)
   "resume.log"
+  "resume.out"
   "resume.aux"
   "resume.pdf"
-  "resume.out"
